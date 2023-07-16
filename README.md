@@ -1,4 +1,4 @@
-### efk stack (allinone)
+### EFK stack (allinone)
 
 Install EFK (ElasticSearch Fluentd Kibana) Stack for Kind Cluster
 #### Create a new Kind Cluster
