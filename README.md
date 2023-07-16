@@ -21,5 +21,5 @@ kubectl port-forward svc/kibana-logging -n kube-system 5601
 
 Open a browser to access http://localhost:5601/
 
-<img src="kind-efk-kibana?raw=true" width="1000">
+<img src="kind-efk-kibana.png?raw=true" width="800">
 
