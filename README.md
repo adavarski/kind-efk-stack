@@ -1,19 +1,19 @@
-# efk-kind-allinone
+### efk stack (allinone)
 
 Install EFK (ElasticSearch Fluentd Kibana) Stack for Kind Cluster
-## Create a new Kind Cluster
+#### Create a new Kind Cluster
 
 ```bash
 kind create cluster --config kind.yaml
 ```
 
-## Install EFK Stack
+#### Install EFK Stack
 
 ```bash
 kubectl apply -f allinone.yaml
 ```
 
-## Kibana Dashboard
+#### Kibana Dashboard
 
 ```bash
 kubectl port-forward svc/kibana-logging -n kube-system 5601
